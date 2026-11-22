@@ -857,7 +857,7 @@ function runCommand(command) {
     else if (command === "-logo") {
         new Typed(output, {
             strings: [
-                '<img style="height:100px;" src="assets/TerminalJrThumbnail.svg" alt="Terminal Jr logo."><br>' +
+                '<img style="height:100px;" src="TerminalJrThumbnail.svg" alt="Terminal Jr logo."><br>' +
                 commandsFound()
                 ],
             typeSpeed: 1,
