@@ -973,7 +973,7 @@ function runCommand(command) {
     else if (command === "-repo") {
         new Typed(output, {
             strings: [
-                `If you're trying to cheat, you minus wel use the button at the bottom.<br>^1000 If you really want it though, here's the <a href="https://github.com/MisterFedoraDevs/Terminal-Jr">Repo</a><br>.` +
+                `If you're trying to cheat, you minus wel use the button at the bottom.<br>^1000 If you really want it though, here's the <a href="https://github.com/MisterFedoraDevs/Terminal-Jr-2">Repo</a><br>.` +
                 commandsFound()
                 ],
             typeSpeed: 1,

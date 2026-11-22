@@ -41,4 +41,4 @@ To make it work, I made sure that it checks if the other command that resets the
 ## Resources
 [Demo](https://MisterFedoraDevs.github.io/Terminal-Jr)
 
-[Repo](https://github.com/MisterFedoraDevs/Terminal-Jr)
+[Repo](https://github.com/MisterFedoraDevs/Terminal-Jr-2)
