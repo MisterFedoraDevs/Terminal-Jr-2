@@ -1,0 +1,183 @@
+* {
+    background-color: black;
+    color: #0A9548;
+    font-family: "courier-new", monospace;
+    font-variant-emoji: text;
+}
+
+* ::selection {
+    color: white;
+    background-color: #0A9548;
+}
+
+h2 {
+    font-family: "Tiny5 Duo";
+}
+
+h4 {
+    padding: 0px;
+    line-height: 0px;
+}
+
+.fine-print {
+    font-size: 8px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    color: #0A9548;
+    outline: none;
+    caret-shape: block;
+    caret-color: #0A9548;
+}
+
+button {
+    animation: button-fade 3.25s forwards;
+}
+
+@keyframes button-fade {
+    0% {
+        color: black;
+        border: 0px solid black;
+        visibility: none;
+        display: none;
+    }
+    99% {
+        color: black;
+        border: 0px solid black;
+        visibility: none;
+        display: none;
+    }
+    100% {
+        border: 1px solid #ffffff;
+    }
+}
+
+button:hover {
+    cursor: pointer;
+    animation: button-gradient 0.15s linear infinite;
+}
+
+@keyframes button-gradient {
+    0% {
+        background-color: black;
+        color: white;
+    }
+    50% {
+        background-color: #7e0404;
+        color: white;
+    }
+}
+
+.terminal {
+    display: inline-block;
+    width: 78.5%;
+}
+
+.commandsFound {
+    display: inline;
+    width: 19.5%;
+    transform: translateY(-3px);
+}
+
+/* COMMANDS */
+.color {
+    animation: color-gradient 4s linear infinite;
+}
+
+@keyframes color-gradient {
+    0% {
+        color: #0A9548;
+    }
+    12% {
+        color: #5bc0de;
+    }
+    25% {
+        color: #338eda;
+    }
+    37% {
+        color: #a633d6;
+    }
+    49% {
+       color: #dc217f;
+    }
+    63% {
+        color: #ec3750;
+    }
+    75% {
+        color: #ff8c37; 
+    }
+    87% {
+        color: #f1c40f;
+    }
+    100% {
+        color: #0A9548;
+    }
+}
+
+#explosion-container {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    z-index: 9999;
+    background: transparent;
+}
+
+.particle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: explode 1s ease-out forwards;
+}
+
+@keyframes explode {
+    0% {
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(var(--x), var(--y)) scale(0);
+        opacity: 0;
+    }
+}
+
+.anton {
+    font-family: 'Anton', sans-serif;
+}
+.schoolbell {
+    font-family: 'Schoolbell', sans-serif;
+}
+
+.hidden {
+    color: black;
+}
+
+.pixelart-border {
+    display: flex;
+    line-height: 0px;;
+}
+
+.greenpixel {
+    display: flex;
+    color: #0A9548;
+    background-color: #0A9548;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    gap: 0px;
+    margin: 0px;
+}
+
+.blackpixel {
+    display: flex;
+    color: black;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    gap: 0px;
+    margin: 0px;
+}
